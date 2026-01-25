@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
+/*****************************/
 .header{
     display:flex;
     gap:232.5px;
+    padding: 21.85px 0px;
 }
 
 .list ul{
@@ -19,4 +25,23 @@
     display:flex;
     gap:24px;
     list-style-type: none;
+}
+
+
+/*******************************/
+
+.collection_section{
+    display:flex;
+    gap:30px;
+    text-align: center;
+    padding: 80px 0px;
+    flex-wrap: wrap;
+}
+
+.collection{
+    width: calc(100% - 90px) / 4;
+}
+
+.collection h2{
+    margin: 23px 0px;
 }
